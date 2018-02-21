@@ -4,9 +4,7 @@
  Am a Quality Analyst at Sama source.I strongly believe that
  only I can change my life. Failure will never overtake me if my
  determination to succeed is strong enough. I just find myself
- happy with the simple things. My Education background
- is Bsc in Computer Science and Mathematics.
-
+ happy with the simple things in life. 
 
 ### Passion
  I have a great passion for coding and everytime I get home
