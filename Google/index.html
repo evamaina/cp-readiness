@@ -3,9 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="img/favicon.png">
-
     <title>Google</title>
 
     <!--  CSS -->
@@ -18,7 +16,7 @@
 
             if (search== "") {
                 alert("You have not typed anything: please type and try again");
-                return false;
+                return;
             }
             else
             {
@@ -31,14 +29,8 @@
 </head>
 
 <body>
-
-<div class="site-wrapper">
-
-    <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-            <div class="masthead clearfix">
+<!-- Header top-->
+            <div class="masthead ">
                 <div class="inner">
 
                     <nav2 class="nav nav-masthead2">
@@ -54,6 +46,8 @@
                     </nav>
                 </div>
             </div>
+
+<!-- Middle body -->
 
             <div class="inner cover">
                 <div class="cover-heading"><img src="img/google.png" width="360" height="190"></div>
@@ -71,6 +65,7 @@
                 </p>
             </div>
 
+<!-- Footer-->
             <div class="mastfoot">
                 <div class="inner" id="inner">
 
@@ -91,11 +86,5 @@
                 </div>
                 </div>
             </div>
-
-        </div>
-
-    </div>
-
-</div>
 </body>
 </html>
