@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png">
+
+    <title>Google</title>
+
+    <!--  CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- javasript for validation-->
+    <script>
+        function validateSearch() {
+            var search = document.getElementById("searchInput").value;
+
+            if (search== "") {
+                alert("You have not typed anything: please type and try again");
+                return false;
+            }
+            else
+            {
+                alert(search);
+                return
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+<div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+            <div class="masthead clearfix">
+                <div class="inner">
+
+                    <nav2 class="nav nav-masthead2">
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Store</a>
+                    </nav2>
+
+                    <nav class="nav nav-masthead">
+                        <a class="nav-link active" href="#">Mail</a>
+                        <a class="nav-link" href="#">Images</a>
+                        <a class="nav-link" href="#" title="Google apps"><img src="img/googleapp.svg" id="img"></a>
+                        <a class="nav-link" href="#" title="Login">Login</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="inner cover">
+                <div class="cover-heading"><img src="img/google.png" width="360" height="190"></div>
+
+                <div class="lead">
+                    <form>
+                        <input type="text" name="searchInput" id="searchInput" title="Search"/>
+                        <br><br>
+                        <input type="button" value="Google Search" onclick="validateSearch()"/> &nbsp;&nbsp;&nbsp;<input type="button" value="I'm Feeling Lucky"/>
+                    </form>
+                </div>
+
+                <p class="lead">
+                <p class="btn btn-lg btn-secondary">Google offered in: <a href="" style="color:blue">Kiswahili</a></p>
+                </p>
+            </div>
+
+            <div class="mastfoot">
+                <div class="inner" id="inner">
+
+                    <a class="footer-left" href="#">Kenya</a>
+                </div>
+
+
+                <div class="inner">
+                    <div class="left">
+                    <a class="footer-left" href="#">Advertising</a>
+                    <a class="footer-left" href="#">Business</a>
+                    </div>
+
+                    <div class="right">
+                    <a class="footer-right" href="#">Privacy</a>
+                    <a class="footer-right" href="#">Terms</a>
+                    <a class="footer-right" href="#">Settings</a>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
