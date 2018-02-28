@@ -1,0 +1,133 @@
+
+a {
+    color: black;
+     text-decoration: none;
+
+}
+
+body {
+    height: 100%;
+}
+body {
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Padding for spacing */
+.inner {
+    padding: 2rem;
+}
+
+#searchInput{
+    width: 50%;
+    height: 40px;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    color: black;
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+.nav-masthead2 .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+@media (min-width: 48em) {
+    .nav-masthead {
+        float: right;
+    }
+
+    .nav-masthead2 {
+        float: left;
+    }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+    padding: 0 1.5rem;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+    /* Pull out the header and footer */
+    .masthead {
+        position: fixed;
+        top: 0;
+    }
+    .mastfoot {
+        position: fixed;
+        bottom: 0;
+    }
+
+    /* Handle the widths */
+    .masthead,
+    .mastfoot {
+        width: 100%;
+    }
+}
+
+.mastfoot .inner .right{
+    float: right;
+}
+
+.mastfoot .inner .left{
+    float: left;
+}
+
+.right .footer-right {
+    padding: .25rem 0;
+    color: black;
+}
+
+.right .footer-right  + .footer-right {
+    margin-left: 1rem;
+}
+
+
+.left .footer-left {
+    padding: .25rem 0;
+    color: black;
+}
+
+.left .footer-left   + .footer-left {
+    margin-left: 1rem;
+}
+
+.inner .footer-left{
+    float: left;
+
+}
+#inner{
+    border-bottom: 1px solid #e4e4e4;
+}
+#img{
+    margin-bottom: -5px;
+    height: 25px;
+    width: 25px
+}
